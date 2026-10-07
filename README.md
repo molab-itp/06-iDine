@@ -8,3 +8,6 @@ Questions? Comments? [Tweet me at @twostraws](https://twitter.com/twostraws).
 
 - adjusted order of files to better explain code
 
+- claude ai: in 06-iDine update from ObservableObject
+  to @Observable
+- re-org with folders Model, Views
