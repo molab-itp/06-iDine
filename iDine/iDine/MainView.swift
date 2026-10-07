@@ -23,9 +23,7 @@ struct MainView: View {
     }
 }
 
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
-            .environment(Order())
-    }
+#Preview {
+  MainView()
+    .environment(Order())
 }

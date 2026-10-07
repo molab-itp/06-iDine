@@ -65,9 +65,7 @@ struct CheckoutView: View {
     }
 }
 
-struct CheckoutView_Previews: PreviewProvider {
-    static var previews: some View {
-        CheckoutView()
-            .environment(Order())
-    }
+#Preview {
+  CheckoutView()
+      .environment(Order())
 }

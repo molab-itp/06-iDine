@@ -41,11 +41,9 @@ struct ItemDetail: View {
     }
 }
 
-struct ItemDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationStack {
-            ItemDetail(item: MenuItem.example)
-                .environment(Order())
-        }
-    }
+#Preview {
+  NavigationStack {
+      ItemDetail(item: MenuItem.example)
+          .environment(Order())
+  }
 }

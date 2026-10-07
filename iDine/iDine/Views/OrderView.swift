@@ -44,9 +44,7 @@ struct OrderView: View {
     }
 }
 
-struct OrderView_Previews: PreviewProvider {
-    static var previews: some View {
-        OrderView()
-            .environment(Order())
-    }
+#Preview {
+  OrderView()
+      .environment(Order())
 }
